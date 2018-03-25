@@ -1,0 +1,42 @@
+asRelFile:
+ipCountFile:
+trafficModelFile:
+superASFile:
+trafficSplitFile:
+botASFile:
+cloudASFile:
+mongoDBURI: mongodb://localhost:27017
+baseLogDir: logs/
+parallelLogging: false
+maxNonAggressiveTopology: 7800
+maxTopologySize: 10000
+numThreads: 48
+randomSampleCount: 100
+botThresholdEpsilon: 0.001
+defaultOrderMode: TrafficWeighted
+defaultNumTestRuns: 5
+defaultDeployStart: 10
+defaultDeployStop: 100
+defaultDeployStep: 10
+defaultFigureOfMerit: 50
+runWithFixedDeployerCriticalPair: false
+fixedDeployerCriticalPair:
+debug: false
+skipLogging: false
+ignoreOnePathLimit: false
+ignorePruning: false
+ASDataCollection: false
+computeBandwidth: true
+capacityDataCollection: false
+preAttackSFDataCollection: false
+runWithDisturbance: true
+runWithBots: true
+runWithFullyDistributedBots: false
+targetDeployer: false
+blacklistCongested: false
+testAdvertisementOnly: false
+linkSearch: true
+linkSearchMaxIterations: 10
+congestionFactors:
+bandwidthTolerances:
+botThresholds:

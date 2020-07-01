@@ -39,9 +39,9 @@
     </dependency>
     <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
     <dependency>
-        <groupId>com.google.guava</groupId>
-        <artifactId>guava</artifactId>
-        <version>16.0.1</version>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>[24.1.1,)</version>
     </dependency>
       <!-- https://mvnrepository.com/artifact/com.esotericsoftware.yamlbeans/yamlbeans -->
       <dependency>
